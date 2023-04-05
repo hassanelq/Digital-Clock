@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  font-family: "BonvenoCF", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  transform: translateY(40%);
+  background-color: rgb(11, 12, 16);
+}
+body .content {
+  display: flex;
+  align-items: end;
+}
+body .content .title {
+  font-size: 60px;
+  color: rgb(102, 252, 241);
+  padding-bottom: 15px;
+}
+body .content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .content .container .cards {
+  display: flex;
+}
+body .content .container .cards .card {
+  margin: 10px;
+  text-align: center;
+}
+body .content .container .cards .card .timeNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 150px;
+  background-color: rgb(251, 252, 255);
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+body .content .container .cards .card .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  background-color: rgb(200, 201, 204);
+  font-size: 22px;
+}
+body .content .AmPm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(200, 201, 204);
+  text-align: center;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
